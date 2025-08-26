@@ -18,8 +18,9 @@
 
 ```bash
 # نمایش همه namespaceها
+```
 kubectl get ns
-
+```
 # لیست همه پادها در یک namespace
 kubectl get pods -n my-namespace
 
