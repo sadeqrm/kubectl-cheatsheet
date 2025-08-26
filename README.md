@@ -16,7 +16,6 @@
 
 ## ⚡ Quick Reference
 
-```bash
 # نمایش همه namespaceها
 ```
 kubectl get ns
