@@ -23,3 +23,21 @@ kubectl rollout status deployment/my-deployment
 kubectl rollout history deployment/my-deployment
 kubectl rollout undo deployment/my-deployment
 
+
+
+# مشاهده deploymentها
+kubectl get deployments
+
+# ایجاد/آپدیت deployment از روی فایل
+kubectl apply -f deployment.yaml
+
+# حذف deployment
+kubectl delete deployment my-deployment
+
+# اسکیل کردن
+kubectl scale deployment my-deployment --replicas=3
+
+# آپدیت rolling
+kubectl rollout restart deployment my-deployment
+kubectl rollout status deployment my-deployment
+
